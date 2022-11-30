@@ -103,3 +103,36 @@ bool Aircraft::getInAirspaceFlag() {
 void Aircraft::setInAirspaceFlag(bool flag) {
 	this->inAirspaceFlag = flag;
 }
+
+int Aircraft::getAnticipatedx()
+{
+	return this->anticipatedx;
+}
+
+void Aircraft::setAnticipatedx(double anticipatedx)
+{
+	this->anticipatedx = anticipatedx;
+
+}
+
+double Aircraft::getAnticipatedy()
+{
+	return this->anticipatedy;
+}
+
+void Aircraft::setAnticipatedy(double anticipatedy)
+{
+
+	this->anticipatedy = anticipatedy;
+}
+
+double Aircraft::getAnticipatedz()
+{
+	return this->anticipatedz;
+}
+
+void Aircraft::setAnticipatedz(double anticipatedz)
+{
+
+	this->anticipatedz = anticipatedz;
+}

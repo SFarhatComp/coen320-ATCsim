@@ -9,12 +9,25 @@ class Aircraft
 		double xPosition;
 		double yPosition;
 		double zPosition;
+
+		// Double that represent a 3d positionning of the plane
 		double xSpeed;
 		double ySpeed;
 		double zSpeed;
+
+		// Double That represent the Speed of an aircraft
+
 		bool inAirspaceFlag;
 		int id;
 		double arrivalTime;
+
+		//
+
+		double anticipatedx;
+		double anticipatedy;
+		double anticipatedz;
+
+		// 
 
 	public:
 		Aircraft();
@@ -38,6 +51,13 @@ class Aircraft
 		void setArrivalTime(double time);
 		bool getInAirspaceFlag();
 		void setInAirspaceFlag(bool flag);
+		double getAnticipatedx();
+		void setAnticipatedx(double a);
+		double getAnticipatedy();
+		void setAnticipatedy(double a);
+		double getAnticipatedz();
+		void setAnticipatedz(double a);
+
 		void fly();
 
 };

@@ -24,7 +24,7 @@ Radar::~Radar() {
 
 }
 
-// Set Get OriginX
+// SetGet OriginX
 
 int Radar::getRadarOriginX() {
 	return this->radarOriginX;
@@ -36,7 +36,7 @@ void Radar::setRadarOriginX(int radarOriginX) {
 
 
 
-//Get set for OriginY
+//Getset for OriginY
 int Radar::getRadarOriginY() {
 	return this->radarOriginY;
 }
@@ -45,7 +45,7 @@ void Radar::setRadarOriginY(int radarOriginY) {
 	this->radarOriginY = radarOriginY;
 }
 
-//Get Set for OriginZ
+//GetSet for OriginZ
 
 int Radar::getRadarOriginZ() {
 	return this->radarOriginZ;
@@ -58,7 +58,7 @@ void Radar::setRadarOriginZ(int radarOriginZ) {
 
 
 
-//Get Set for END X
+//GetSet for ENDX
 
 
 int Radar::getRadarEndX() {
@@ -71,7 +71,7 @@ void Radar::setRadarEndX(int radarEndX) {
 }
 
 
-//Get Set for END Y
+//GetSet for ENDY
 
 
 int Radar::getRadarEndY() {
@@ -83,7 +83,7 @@ void Radar::setRadarEndY(int radarEndY) {
 
 }
 
-//Get Set for END Z
+//GetSet for ENDZ
 int Radar::getRadarEndZ() {
 	return this->radarEndZ;
 }
