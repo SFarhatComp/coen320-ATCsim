@@ -141,12 +141,16 @@
   <ItemGroup>
     <ClInclude Include="Aircraft.h" />
     <ClInclude Include="ComputerSystem.h" />
+    <ClInclude Include="Data_Display.h" />
     <ClInclude Include="Radar.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aircraft.cpp" />
     <ClCompile Include="ComputerSystem.cpp" />
+    <ClCompile Include="Data_Display.cpp" />
     <ClCompile Include="Radar.cpp" />
+    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -104,7 +104,7 @@ void Aircraft::setInAirspaceFlag(bool flag) {
 	this->inAirspaceFlag = flag;
 }
 
-int Aircraft::getAnticipatedx()
+double Aircraft::getAnticipatedx()
 {
 	return this->anticipatedx;
 }

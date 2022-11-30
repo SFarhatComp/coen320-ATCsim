@@ -12,6 +12,8 @@ violation of the airspace separation constraint. It is also responsible for the 
 such event to the operator. This component determines if there is (or will be) a safety violation
 and emit an alert to notify the operator. Moreover, it will send to the Data Display the ID and
 position of the aircraft to be shown on the screen of the controller*/
+
+
 class ComputerSystem
 {
 	private:

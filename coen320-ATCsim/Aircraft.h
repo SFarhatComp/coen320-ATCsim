@@ -23,6 +23,8 @@ class Aircraft
 
 		//
 
+
+		// Added Anticipated positioning which will allow for testing for HITS,
 		double anticipatedx;
 		double anticipatedy;
 		double anticipatedz;
@@ -31,7 +33,7 @@ class Aircraft
 
 	public:
 		Aircraft();
-		Aircraft(double x, double y, double z, double speedX, double speedY, double speedZ, int iD, double time);
+		Aircraft(double x, double y, double z, double speedX, double speedY, double speedZ, int iD, double time); // We need to add the anticipated values to the initialiser. Waiting for Pranavaas approval to add them, The setter and getter have been coded tho . 
 		~Aircraft();
 		double getXPosition();
 		void setXPosition(double x);
@@ -58,7 +60,7 @@ class Aircraft
 		double getAnticipatedz();
 		void setAnticipatedz(double a);
 
-		void fly();
+		void fly(); // Implementation of the function that constantly allow planes to fly , This should be started by a thread down the line, Every plane should have their opwn thread. Thereforre probably a for loop with join at each instances 
 
 };
 
